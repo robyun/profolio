@@ -1,0 +1,15 @@
+**/*.map
+**/*.min.css
+**/*.min.js
+# Dependencies and generated output are not site source.
+vendor/
+node_modules/
+_site/
+.bundle/
+.jekyll-cache/
+.sass-cache/
+.venv/
+.build-*/
+al-folio-upgrade-report.md
+output/
+test-results/
