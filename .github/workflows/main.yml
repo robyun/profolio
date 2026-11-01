@@ -1,0 +1,76 @@
+name: Build and deploy academic website
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:prettier
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Refresh downloadable CV
+        run: |
+          python -m pip install -r requirements-cv.txt
+          python scripts/export_cv.py
+      - name: Check al-folio compatibility
+        run: bundle exec al-folio upgrade audit --no-fail
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+          PAGES_ORIGIN: ${{ steps.pages.outputs.origin }}
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            bundle exec jekyll build --baseurl /al-folio
+            python scripts/check_site.py _site /al-folio
+          else
+            bundle exec jekyll build --url "$PAGES_ORIGIN" --baseurl "$PAGES_BASE_PATH"
+            python scripts/check_site.py _site "$PAGES_BASE_PATH"
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
