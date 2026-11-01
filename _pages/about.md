@@ -8,10 +8,8 @@ profile:
   align: right
   image: robert-dong.jpg
   image_circular: false
-  more_info: >
-    <p>Atlanta, Georgia</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
