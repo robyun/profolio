@@ -45,14 +45,13 @@ jobs:
       - name: Build site
         env:
           JEKYLL_ENV: production
-          PAGES_ORIGIN: ${{ steps.pages.outputs.origin }}
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: |
           if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
             bundle exec jekyll build --baseurl /al-folio
             python scripts/check_site.py _site /al-folio
           else
-            bundle exec jekyll build --url "$PAGES_ORIGIN" --baseurl "$PAGES_BASE_PATH"
+            bundle exec jekyll build --baseurl "$PAGES_BASE_PATH"
             python scripts/check_site.py _site "$PAGES_BASE_PATH"
           fi
       - uses: actions/upload-pages-artifact@v4
