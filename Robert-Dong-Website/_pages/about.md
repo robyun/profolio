@@ -21,7 +21,7 @@ latest_posts:
   enabled: false
 ---
 
-I'm Yun (Robert) Dong, a Ph.D. student in Quantitative Biosciences at Georgia Tech. I use engineering and computation to study biology. I'm interested in how neural circuits process sensory information and support behavior.
+I'm Robert Dong, a Ph.D. student in Quantitative Biosciences at Georgia Tech. I am also pursuing a MS in Computational Science and Engineering (CSE) at the same time. I use engineering and computation to study neuroscience. I'm interested in how neural circuits process sensory information and support behavior.
 
 At UNC-Chapel Hill, I worked with Oleg Favorov on tactile processing in rat somatosensory cortex, electrophysiology, behavioral tracking, and experimental hardware. At UC Berkeley, I analyzed neural activity during decision-making with Joni Wallis.
 
