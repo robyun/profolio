@@ -1,0 +1,159 @@
+# The CV page reads this file directly. Dates use YYYY-MM; omit end_date for ongoing work.
+cv:
+  name: Yun (Robert) Dong
+  label: Ph.D. student in Quantitative Biosciences
+  email: dongyunrobert1217@hotmail.com
+  location: Atlanta, Georgia
+  summary: >
+    Georgia Tech Ph.D. student; B.S. in Biomedical Engineering, UNC–Chapel Hill.
+    Experience in somatosensory electrophysiology, neural signal analysis, functional connectivity,
+    behavioral tracking, embedded sensing, and experimental hardware design.
+
+  social_networks:
+    - network: LinkedIn
+      username: robertdong2026
+    - network: GitHub
+      username: robyun
+
+  sections:
+    Education:
+      - institution: Georgia Institute of Technology
+        location: Atlanta, Georgia
+        url: https://qbios.gatech.edu/
+        area: Quantitative Biosciences
+        studyType: Ph.D.
+        start_date: "2026-08"
+
+      - institution: University of North Carolina at Chapel Hill
+        location: Chapel Hill, North Carolina
+        url: https://bme.unc.edu/
+        area: Biomedical Engineering
+        studyType: B.S.
+        start_date: "2022-09"
+        end_date: "2026-05"
+        highlights:
+          - "GPA: 3.5 / 4.0"
+
+    Experience:
+      - company: Favorov Lab, University of North Carolina at Chapel Hill
+        position: Research Assistant
+        location: Chapel Hill, North Carolina
+        start_date: "2024-02"
+        end_date: "2026-05"
+        summary: "Mentor: Oleg Favorov"
+        highlights:
+          - Studied tactile processing in rat somatosensory cortex with multisite NeuroNexus probes; extracted spikes and clustered units.
+          - Assessed transcranial focused ultrasound safety with histology of stimulated cortical tissue.
+          - Built a YOLO model for rat paw tracking and feature extraction in live infrared video.
+          - Designed MRI tests of millimeter-scale rare-earth fiducials to guide chronic implantation.
+          - Built behavioral setups with Arduino, AutoCAD, laser cutting, and 3D printing.
+          - Supported acute and chronic implantation, anesthesia, artificial cerebrospinal fluid preparation, and animal monitoring during and after surgery.
+
+      - company: Biomedical Engineering Senior Design Capstone
+        position: Team Lead and Electronics Lead
+        location: UNC–Chapel Hill
+        start_date: "2025-08"
+        end_date: "2026-05"
+        highlights:
+          - Built a two-IMU orientation-tracking prototype with MPU9250 sensors, quaternions, and Madgwick filtering for real-time relative joint angles.
+          - Added calibration, Euler-angle conversion, startup zeroing, live serial visualization, and abnormal-motion threshold alerts.
+          - Built Python tools to receive sensor data and plot joint-angle changes live.
+
+      - company: University of North Carolina at Chapel Hill
+        position: Teaching Assistant, BME 207 Biomedical Electronics
+        location: Chapel Hill, North Carolina
+        start_date: "2025-08"
+        end_date: "2025-12"
+        highlights:
+          - Led interactive electronics labs and office hours to reinforce course concepts.
+
+      - company: Wallis Group, University of California, Berkeley
+        position: Research Assistant
+        location: Berkeley, California
+        start_date: "2025-05"
+        end_date: "2025-09"
+        summary: "Mentor: Joni Wallis"
+        highlights:
+          - Studied decision-making in primate hippocampal-prefrontal circuitry.
+          - Built MATLAB software to synchronize MonkeyLogic behavioral data with Plexon spikes, plot spike density, and run PCA and regression.
+          - Measured cross-trial phase alignment in local field potentials with the Hilbert transform.
+
+      - company: Zhang Research Group, University of North Carolina at Chapel Hill
+        position: Research Assistant
+        location: Chapel Hill, North Carolina
+        start_date: "2023-02"
+        end_date: "2024-01"
+        summary: "Mentor: Wei Zhang"
+        highlights:
+          - Designed circuit hardware for gain-driven polariton experiments with Fusion 360 and CNC milling.
+          - Studied ways to improve control of magnon-photon interactions.
+
+      - company: Yale University School of Medicine
+        position: Research Assistant
+        location: New Haven, Connecticut
+        start_date: "2022-09"
+        end_date: "2023-01"
+        summary: "Mentor: Chiang-Shan R. Li"
+        highlights:
+          - Studied links between drinking severity and resting-state hypothalamic connectivity using MATLAB statistics.
+
+    Awards:
+      - title: Abrams Scholars
+        date: "2024"
+        awarder: Joint Department of Biomedical Engineering at UNC
+        summary: Selected for competitive mentored undergraduate research, October 2024–May 2026.
+
+      - title: BME Travel Award
+        date: "2025"
+        awarder: Joint Department of Biomedical Engineering at UNC
+        summary: Supported Society for Neuroscience Annual Meeting travel to San Diego.
+
+    Publications:
+      - title: "Drinking severity mediates the relationship between hypothalamic connectivity and rule-breaking/intrusive behavior differently in young women and men: an exploratory study"
+        authors:
+          - Guangfei Li
+          - Yun Dong
+          - Yu Chen
+          - Bao Li
+          - Shefali Chaudhary
+          - Jinbo Bi
+          - Hao Sun
+          - Chunlan Yang
+          - Youjun Liu
+          - Chiang-Shan R. Li
+        publisher: "Quantitative Imaging in Medicine and Surgery, 14(9), 6669–6683"
+        releaseDate: "2024-08-26"
+        url: https://doi.org/10.21037/qims-24-815
+        summary: "Li G, **Dong Y**, Chen Y, Li B, Chaudhary S, Bi J, Sun H, Yang C, Liu Y, Li CSR."
+
+      - title: Combinatorial split-ring and spiral metaresonator for efficient magnon-photon coupling
+        authors:
+          - Yuzan Xiong
+          - Andrew Christy
+          - Yun Dong
+          - Andrew H. Comstock
+          - Dali Sun
+          - Yi Li
+          - James F. Cahoon
+          - Binbin Yang
+          - Wei Zhang
+        publisher: "Physical Review Applied, 21(3), 034034"
+        releaseDate: "2024-03-18"
+        url: https://doi.org/10.1103/PhysRevApplied.21.034034
+        summary: "Xiong Y, Christy A, **Dong Y**, Comstock AH, Sun D, Li Y, Cahoon JF, Yang B, Zhang W."
+
+    Skills:
+      - name: Programming and analysis
+        keywords: "MATLAB, Python, PyTorch, TensorFlow, C/C++, computer vision, signal processing"
+      - name: Embedded systems and design
+        keywords: "Arduino, IMU sensing, Fusion 360, AutoCAD, Onshape, PCB design, CAD modeling"
+      - name: Fabrication
+        keywords: "3D printing, laser cutting, CNC milling, CNC lathe"
+
+    Leadership and Service:
+      - label: Vida
+        details: Assisted doctors in rural Costa Rica for 30 clinical volunteer hours.
+      - label: Delta Chi Fraternity
+        details: Executive member for alumni relations.
+      - label: Student organizations
+        details: Member of the Biomedical Engineering Society, Biomedical Microdevices Club, and UNC Boxing Club.

@@ -1,0 +1,149 @@
+---
+---
+
+@charset "utf-8";
+
+// Keep al-folio's runtime styles; this site's only override is its visual finish.
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "960px"}}
+);
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+:root {
+  --global-bg-color: #fff;
+  --global-text-color: #25313c;
+  --global-text-color-light: #61707c;
+  --global-theme-color: #65508f;
+  --global-hover-color: #4b386e;
+  --global-divider-color: #e2e5ec;
+  --global-footer-bg-color: #f6f7fa;
+  --global-footer-text-color: #61707c;
+  --global-footer-link-color: #65508f;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #171b24;
+  --global-text-color: #e2e6ee;
+  --global-text-color-light: #a7b0c0;
+  --global-theme-color: #bea8e4;
+  --global-hover-color: #d4c1f3;
+  --global-divider-color: #353b49;
+  --global-footer-bg-color: #1e2330;
+  --global-footer-text-color: #a7b0c0;
+  --global-footer-link-color: #bea8e4;
+}
+
+body {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.post-title,
+article h2 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.post-title {
+  font-size: clamp(2.5rem, 6vw, 3.25rem);
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-header .desc {
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+}
+
+article h2 {
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+  font-size: 1.65rem;
+}
+
+article h3 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.profile img {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.profile .more-info {
+  margin-top: 0.85rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.profile .more-info p {
+  margin-bottom: 0.25rem;
+  color: var(--global-text-color-light);
+}
+
+.publications .title {
+  line-height: 1.45;
+}
+
+.social .contact-icons {
+  font-size: 2rem;
+}
+
+.social .contact-note {
+  color: var(--global-text-color-light);
+}
+
+.cv .card {
+  box-shadow: none;
+  border: 1px solid var(--global-divider-color);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
+@media (max-width: 575px) {
+  .profile.float-right,
+  .profile.float-left {
+    max-width: 280px;
+    margin: 0 auto 2rem;
+    float: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
