@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student in <a href="https://qbios.gatech.edu/">Quantitative Biosciences</a> · <a href="https://www.gatech.edu/">Georgia Tech</a>
+subtitle: Ph.D. student in <a href="https://qbios.gatech.edu/">Quantitative Biosciences</a> · <a href="https://qbios.gatech.edu/user/284">Georgia Tech</a>
 
 profile:
   align: right
@@ -21,15 +21,14 @@ latest_posts:
   enabled: false
 ---
 
-I'm Yun (Robert) Dong, a Ph.D. student in Quantitative Biosciences at Georgia Tech. I use engineering and computation to study biology. I'm interested in how neural circuits process sensory information and support behavior.
+I'm Robert Dong, a Ph.D. student in Quantitative Biosciences and MS student in Computational Science and Engineering (CSE) at Georgia Tech. I use engineering and computation to study biology. 
 
-At UNC-Chapel Hill, I worked with Oleg Favorov on tactile processing in rat somatosensory cortex, electrophysiology, behavioral tracking, and experimental hardware. At UC Berkeley, I analyzed neural activity during decision-making with Joni Wallis.
+At UNC-Chapel Hill, I studied in how neural circuits process sensory information and support behavior. I worked with Oleg Favorov on tactile processing in rat somatosensory cortex, electrophysiology, behavioral tracking, and experimental hardware. 
 
 I earned my B.S. in Biomedical Engineering at [UNC-Chapel Hill](https://bme.unc.edu/) in May 2026 and started my Ph.D. in August 2026. I also led an embedded sensing capstone team and taught biomedical electronics labs.
 
 ### Research interests
 
-- Sensory processing, decision-making, and functional connectivity.
 - Electrophysiology, signal processing, and machine learning for behavior analysis.
 - Embedded sensing, CAD, and hardware prototyping.
 
