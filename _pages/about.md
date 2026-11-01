@@ -21,9 +21,9 @@ latest_posts:
   enabled: false
 ---
 
-I'm Robert Dong, a Ph.D. student in Quantitative Biosciences and MS student in Computational Science and Engineering (CSE) at Georgia Tech. I use engineering and computation to study biology. 
+I'm Robert Dong, a Ph.D. student in Quantitative Biosciences and MS student in Computational Science and Engineering (CSE) at Georgia Tech. I use engineering and computation to study biology.
 
-At UNC-Chapel Hill, I studied in how neural circuits process sensory information and support behavior. I worked with Oleg Favorov on tactile processing in rat somatosensory cortex, electrophysiology, behavioral tracking, and experimental hardware. 
+At UNC-Chapel Hill, I studied in how neural circuits process sensory information and support behavior. I worked with Oleg Favorov on tactile processing in rat somatosensory cortex, electrophysiology, behavioral tracking, and experimental hardware.
 
 I earned my B.S. in Biomedical Engineering at [UNC-Chapel Hill](https://bme.unc.edu/) in May 2026 and started my Ph.D. in August 2026. I also led an embedded sensing capstone team and taught biomedical electronics labs.
 
