@@ -25,7 +25,7 @@ At UNC-Chapel Hill, I studied in how neural circuits process sensory information
 
 I earned my B.S. in Biomedical Engineering at [UNC-Chapel Hill](https://bme.unc.edu/) in May 2026 and started my Ph.D. in August 2026. I also led an embedded sensing capstone team and taught biomedical electronics labs.
 
-### Research interests
+### Research Interests
 
 - Electrophysiology, signal processing, and machine learning for behavior analysis.
 - Embedded sensing, CAD, and hardware prototyping.
