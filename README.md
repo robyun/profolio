@@ -11,7 +11,7 @@ The site has About, Research, Publications, and CV pages, your portrait, light a
 3. Open **Settings → Pages → Build and deployment**, and choose **GitHub Actions** as the source.
 4. Open **Actions → Build and deploy academic website → Run workflow**. After the first successful deployment, later changes to `main` rebuild automatically.
 
-For `robyun.github.io`, the public address will be **https://robyun.github.io/**. For a project repository, it will be **https://robyun.github.io/REPOSITORY/**. The workflow reads the repository path from GitHub Pages, so both work without source changes. The site address comes from `url` in `_config.yml`. For a custom domain, update that setting and your Pages domain.
+For `robyun.github.io`, the public address will be **https://robyun.github.io/profolio**. For a project repository, it will be **https://robyun.github.io/REPOSITORY/**. The workflow reads the repository path from GitHub Pages, so both work without source changes. The site address comes from `url` in `_config.yml`. For a custom domain, update that setting and your Pages domain.
 
 This source has not been uploaded or published. The local template checkout retains its upstream Git history; the ZIP omits Git history and installed tools. Use your own new repository as the destination.
 
