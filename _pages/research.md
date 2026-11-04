@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-Before my Ph.D. in Quantitative Biosciences at Georgia Tech, I worked on experimental neuroscience, data analysis, and research hardware.
+Before my Ph.D. at GT, I worked on experimental neuroscience, data analysis, and embedding system.
 
 ## Tactile processing and experimental tools
 
