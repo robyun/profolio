@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Neural signals, behavior, and the tools to measure them.
+description: Computational Neuroscience
 nav: true
 nav_order: 1
 ---
