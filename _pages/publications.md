@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Peer-reviewed work in neuroscience and applied physics. Published as Yun Dong.
 nav: true
 nav_order: 2

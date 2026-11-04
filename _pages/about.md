@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. student in <a href="https://qbios.gatech.edu/">Quantitative Biosciences</a> · <a href="https://qbios.gatech.edu/user/284">Georgia Tech</a>
 

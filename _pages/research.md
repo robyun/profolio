@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 description: Neural signals, behavior, and the tools to measure them.
 nav: true
