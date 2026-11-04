@@ -14,11 +14,11 @@ Before my Ph.D. at GT, I worked on experimental neuroscience, data analysis, and
 **Favorov Lab · UNC-Chapel Hill**  
 Research assistant with Oleg Favorov · February 2024-May 2026
 
-I studied tactile processing in functional modules of rat somatosensory cortex with multisite NeuroNexus probes. I extracted spikes from raw recordings, clustered units, and helped with acute and chronic implantations.
+- I studied tactile processing in functional modules of rat somatosensory cortex with multisite NeuroNexus probes. I extracted spikes from raw recordings, clustered units, and helped with acute and chronic implantations.
 
-I helped assess transcranial focused ultrasound safety with histology of stimulated cortical tissue. I also built a YOLO model to track rat paws in live infrared video and return bounding boxes and paw features.
+- I helped assess transcranial focused ultrasound safety with histology of stimulated cortical tissue. I also built a YOLO model to track rat paws in live infrared video and return bounding boxes and paw features.
 
-I designed MRI tests for millimeter-scale rare-earth fiducials and built behavioral setups with Arduino, CAD, laser cutting, and 3D printing.
+- I designed MRI tests for millimeter-scale rare-earth fiducials and built behavioral setups with Arduino, CAD, laser cutting, and 3D printing.
 
 ## Neural activity during decision-making
 
