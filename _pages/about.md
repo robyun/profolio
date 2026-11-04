@@ -30,4 +30,4 @@ I earned my B.S. in Biomedical Engineering at [UNC-Chapel Hill](https://bme.unc.
 - Electrophysiology, signal processing, and machine learning for behavior analysis.
 - Embedded sensing, CAD, and hardware prototyping.
 
-See my [research]({{ '/research/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}), or contact me by [email](mailto:dongyunrobert1217@hotmail.com) or on [LinkedIn](https://www.linkedin.com/in/robertdong2026).
+See my [research]({{ '/research/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}), or contact me by [email](mailto:ydong349@gatech.edu) or on [LinkedIn](https://www.linkedin.com/in/robertdong2026).
